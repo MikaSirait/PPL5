@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1 Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25163b79-7408-4ec6-9130-d5660570be06</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d58b4d7a-987f-4fbb-bebe-45484b8d62e8</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a6021cbc-cfdf-4d68-8ad5-8f4f943687d2</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ac82ca7c-8a7c-495d-b058-931ab3066c99</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

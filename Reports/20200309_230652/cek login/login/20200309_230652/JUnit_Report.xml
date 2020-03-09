@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="112.604" tests="3" failures="0" errors="0">
+   <testsuite name="login" tests="3" failures="0" errors="0" time="112.604" timestamp="2020-03-09 23:06:56" hostname="lenovo - DESKTOP-HDQA8MU" id="Test Suites/cek login/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lenovo\\git\\PPL5\\Reports\\20200309_230652\\cek login\\login\\20200309_230652"/>
+         <property name="logFiles" value="C:\\Users\\lenovo\\git\\PPL5\\Reports\\20200309_230652\\cek login\\login\\20200309_230652\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lenovo - DESKTOP-HDQA8MU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.100.90"/>
+         <property name="sessionId" value="c1747387-d13d-45b5-bcc9-a7703811429d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/2" time="36.133" classname="Test Cases/2" status="PASSED">
+         <system-out><![CDATA[2020-03-09 23:06:56 - [TEST_CASE][PASSED] - Test Cases/2: Test Cases/2
+
+2020-03-09 23:06:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-09 23:06:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-03-09 23:06:58 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-09 23:07:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-09 23:07:15 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/tokobuah/index.php/admin/login"): Navigate to 'http://localhost/tokobuah/index.php/admin/login' successfully
+
+2020-03-09 23:07:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost/tokobuah/index.php/admin/login' successfully
+
+2020-03-09 23:07:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Admin/input_Email_email"), email): Text 'dian' is set on object 'Object Repository/Page_Login Admin/input_Email_email'
+
+2020-03-09 23:07:16 - [MESSAGE][PASSED] - Text 'dian' is set on object 'Object Repository/Page_Login Admin/input_Email_email'
+
+2020-03-09 23:07:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Admin/input_Password_password"), password): Text 'kopi' is set on object 'Object Repository/Page_Login Admin/input_Password_password'
+
+2020-03-09 23:07:19 - [MESSAGE][PASSED] - Text 'kopi' is set on object 'Object Repository/Page_Login Admin/input_Password_password'
+
+2020-03-09 23:07:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Admin/input_Lupa Password_btn btn-success w-100")): Object: 'Object Repository/Page_Login Admin/input_Lupa Password_btn btn-success w-100' is clicked on
+
+2020-03-09 23:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Admin/input_Lupa Password_btn btn-success w-100' is clicked on
+
+2020-03-09 23:07:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-09 23:07:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-09 23:07:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Products")): Object: 'Object Repository/a_Products' is clicked on
+
+2020-03-09 23:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Products' is clicked on
+
+2020-03-09 23:07:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_New Product")): Object: 'Object Repository/a_New Product' is clicked on
+
+2020-03-09 23:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/a_New Product' is clicked on
+
+2020-03-09 23:07:24 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/tokobuah/index.php/admin/products/add"): Navigate to 'http://localhost/tokobuah/index.php/admin/products/add' successfully
+
+2020-03-09 23:07:25 - [MESSAGE][PASSED] - Navigate to 'http://localhost/tokobuah/index.php/admin/products/add' successfully
+
+2020-03-09 23:07:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Name_name"), nama): Text 'kapalkopi' is set on object 'Object Repository/input_Name_name'
+
+2020-03-09 23:07:25 - [MESSAGE][PASSED] - Text 'kapalkopi' is set on object 'Object Repository/input_Name_name'
+
+2020-03-09 23:07:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Price_price"), harga): Text '15000' is set on object 'Object Repository/input_Price_price'
+
+2020-03-09 23:07:26 - [MESSAGE][PASSED] - Text '15000' is set on object 'Object Repository/input_Price_price'
+
+2020-03-09 23:07:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/textarea_Description_description"), deskripsi_produk): Text 'kopi' is set on object 'Object Repository/textarea_Description_description'
+
+2020-03-09 23:07:26 - [MESSAGE][PASSED] - Text 'kopi' is set on object 'Object Repository/textarea_Description_description'
+
+2020-03-09 23:07:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-09 23:07:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-09 23:07:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/input_Description_btn")): Object: 'Object Repository/input_Description_btn' is clicked on
+
+2020-03-09 23:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/input_Description_btn' is clicked on
+
+2020-03-09 23:07:32 - [TEST_STEP][PASSED] - if (expected == "passed"): Object 'Object Repository/div_Berhasil disimpan' is present
+
+2020-03-09 23:07:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/div_Berhasil disimpan"), 5): Object 'Object Repository/div_Berhasil disimpan' is present
+
+2020-03-09 23:07:32 - [MESSAGE][PASSED] - Object 'Object Repository/div_Berhasil disimpan' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2" time="35.767" classname="Test Cases/2" status="PASSED">
+         <system-out><![CDATA[2020-03-09 23:07:32 - [TEST_CASE][PASSED] - Test Cases/2: Test Cases/2
+
+2020-03-09 23:07:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-09 23:07:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-09 23:07:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-03-09 23:07:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-09 23:07:49 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/tokobuah/index.php/admin/login"): Navigate to 'http://localhost/tokobuah/index.php/admin/login' successfully
+
+2020-03-09 23:07:49 - [MESSAGE][PASSED] - Navigate to 'http://localhost/tokobuah/index.php/admin/login' successfully
+
+2020-03-09 23:07:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Admin/input_Email_email"), email): Text 'dian' is set on object 'Object Repository/Page_Login Admin/input_Email_email'
+
+2020-03-09 23:07:50 - [MESSAGE][PASSED] - Text 'dian' is set on object 'Object Repository/Page_Login Admin/input_Email_email'
+
+2020-03-09 23:07:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Admin/input_Password_password"), password): Text 'kopi' is set on object 'Object Repository/Page_Login Admin/input_Password_password'
+
+2020-03-09 23:07:55 - [MESSAGE][PASSED] - Text 'kopi' is set on object 'Object Repository/Page_Login Admin/input_Password_password'
+
+2020-03-09 23:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Admin/input_Lupa Password_btn btn-success w-100")): Object: 'Object Repository/Page_Login Admin/input_Lupa Password_btn btn-success w-100' is clicked on
+
+2020-03-09 23:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Admin/input_Lupa Password_btn btn-success w-100' is clicked on
+
+2020-03-09 23:07:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-09 23:07:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-09 23:07:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Products")): Object: 'Object Repository/a_Products' is clicked on
+
+2020-03-09 23:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Products' is clicked on
+
+2020-03-09 23:08:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_New Product")): Object: 'Object Repository/a_New Product' is clicked on
+
+2020-03-09 23:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/a_New Product' is clicked on
+
+2020-03-09 23:08:00 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/tokobuah/index.php/admin/products/add"): Navigate to 'http://localhost/tokobuah/index.php/admin/products/add' successfully
+
+2020-03-09 23:08:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost/tokobuah/index.php/admin/products/add' successfully
+
+2020-03-09 23:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Name_name"), nama): Text 'torakopi' is set on object 'Object Repository/input_Name_name'
+
+2020-03-09 23:08:01 - [MESSAGE][PASSED] - Text 'torakopi' is set on object 'Object Repository/input_Name_name'
+
+2020-03-09 23:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Price_price"), harga): Text '0' is set on object 'Object Repository/input_Price_price'
+
+2020-03-09 23:08:02 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/input_Price_price'
+
+2020-03-09 23:08:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/textarea_Description_description"), deskripsi_produk): Text '' is set on object 'Object Repository/textarea_Description_description'
+
+2020-03-09 23:08:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/textarea_Description_description'
+
+2020-03-09 23:08:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-09 23:08:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-09 23:08:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/input_Description_btn")): Object: 'Object Repository/input_Description_btn' is clicked on
+
+2020-03-09 23:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/input_Description_btn' is clicked on
+
+2020-03-09 23:08:08 - [TEST_STEP][PASSED] - if (expected == "passed"): null
+
+2020-03-09 23:08:08 - [TEST_STEP][PASSED] - else if (expected == "fail"): Object 'Object Repository/p_The Description field is required' is present
+
+2020-03-09 23:08:08 - [TEST_STEP][PASSED] - if (status == "desc kosong"): Object 'Object Repository/p_The Description field is required' is present
+
+2020-03-09 23:08:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/p_The Description field is required"), 5): Object 'Object Repository/p_The Description field is required' is present
+
+2020-03-09 23:08:08 - [MESSAGE][PASSED] - Object 'Object Repository/p_The Description field is required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2" time="32.934" classname="Test Cases/2" status="PASSED">
+         <system-out><![CDATA[2020-03-09 23:08:08 - [TEST_CASE][PASSED] - Test Cases/2: Test Cases/2
+
+2020-03-09 23:08:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-09 23:08:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-09 23:08:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-03-09 23:08:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-09 23:08:25 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/tokobuah/index.php/admin/login"): Navigate to 'http://localhost/tokobuah/index.php/admin/login' successfully
+
+2020-03-09 23:08:25 - [MESSAGE][PASSED] - Navigate to 'http://localhost/tokobuah/index.php/admin/login' successfully
+
+2020-03-09 23:08:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Admin/input_Email_email"), email): Text 'dian' is set on object 'Object Repository/Page_Login Admin/input_Email_email'
+
+2020-03-09 23:08:25 - [MESSAGE][PASSED] - Text 'dian' is set on object 'Object Repository/Page_Login Admin/input_Email_email'
+
+2020-03-09 23:08:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Admin/input_Password_password"), password): Text 'kopi' is set on object 'Object Repository/Page_Login Admin/input_Password_password'
+
+2020-03-09 23:08:28 - [MESSAGE][PASSED] - Text 'kopi' is set on object 'Object Repository/Page_Login Admin/input_Password_password'
+
+2020-03-09 23:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Admin/input_Lupa Password_btn btn-success w-100")): Object: 'Object Repository/Page_Login Admin/input_Lupa Password_btn btn-success w-100' is clicked on
+
+2020-03-09 23:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Admin/input_Lupa Password_btn btn-success w-100' is clicked on
+
+2020-03-09 23:08:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-03-09 23:08:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-03-09 23:08:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Products")): Object: 'Object Repository/a_Products' is clicked on
+
+2020-03-09 23:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Products' is clicked on
+
+2020-03-09 23:08:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_New Product")): Object: 'Object Repository/a_New Product' is clicked on
+
+2020-03-09 23:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/a_New Product' is clicked on
+
+2020-03-09 23:08:33 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/tokobuah/index.php/admin/products/add"): Navigate to 'http://localhost/tokobuah/index.php/admin/products/add' successfully
+
+2020-03-09 23:08:34 - [MESSAGE][PASSED] - Navigate to 'http://localhost/tokobuah/index.php/admin/products/add' successfully
+
+2020-03-09 23:08:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Name_name"), nama): Text '' is set on object 'Object Repository/input_Name_name'
+
+2020-03-09 23:08:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/input_Name_name'
+
+2020-03-09 23:08:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Price_price"), harga): Text '20000' is set on object 'Object Repository/input_Price_price'
+
+2020-03-09 23:08:35 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/input_Price_price'
+
+2020-03-09 23:08:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/textarea_Description_description"), deskripsi_produk): Text 'kopiaren' is set on object 'Object Repository/textarea_Description_description'
+
+2020-03-09 23:08:35 - [MESSAGE][PASSED] - Text 'kopiaren' is set on object 'Object Repository/textarea_Description_description'
+
+2020-03-09 23:08:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-09 23:08:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-09 23:08:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/input_Description_btn")): Object: 'Object Repository/input_Description_btn' is clicked on
+
+2020-03-09 23:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/input_Description_btn' is clicked on
+
+2020-03-09 23:08:41 - [TEST_STEP][PASSED] - if (expected == "passed"): null
+
+2020-03-09 23:08:41 - [TEST_STEP][PASSED] - else if (expected == "fail"): Object 'Object Repository/p_The Name field is required' is present
+
+2020-03-09 23:08:41 - [TEST_STEP][PASSED] - if (status == "desc kosong"): null
+
+2020-03-09 23:08:41 - [TEST_STEP][PASSED] - else if (status == "nama kosong"): Object 'Object Repository/p_The Name field is required' is present
+
+2020-03-09 23:08:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("p_The Name field is required"), 5): Object 'Object Repository/p_The Name field is required' is present
+
+2020-03-09 23:08:41 - [MESSAGE][PASSED] - Object 'Object Repository/p_The Name field is required' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-09 23:06:56 - [TEST_SUITE][PASSED] - login: Test Cases/2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

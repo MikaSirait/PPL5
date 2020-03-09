@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-03-09T23:10:52</date>
+  <millis>1583770252853</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/cek login/login</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">login</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/cek login/login</property>
+</record>
+<record>
+  <date>2020-03-09T23:10:52</date>
+  <millis>1583770252878</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = lenovo - DESKTOP-HDQA8MU</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">lenovo - DESKTOP-HDQA8MU</property>
+</record>
+<record>
+  <date>2020-03-09T23:10:52</date>
+  <millis>1583770252880</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-03-09T23:10:52</date>
+  <millis>1583770252881</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.100.90</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.100.90</property>
+</record>
+<record>
+  <date>2020-03-09T23:10:52</date>
+  <millis>1583770252882</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.1.1</property>
+</record>
+<record>
+  <date>2020-03-09T23:10:53</date>
+  <millis>1583770253456</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/2</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/2</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/2</property>
+  <property name="source">C:\\Users\\lenovo\\git\\PPL5\\Test Cases\\2.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-09T23:10:53</date>
+  <millis>1583770253526</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) email = dian</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-09T23:10:53</date>
+  <millis>1583770253565</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) password = kopi</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-09T23:10:53</date>
+  <millis>1583770253567</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expected = passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-09T23:10:53</date>
+  <millis>1583770253568</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>nama = kapalkopi</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-09T23:10:53</date>
+  <millis>1583770253569</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>harga = 15000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-09T23:10:53</date>
+  <millis>1583770253570</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deskripsi_produk = kopi</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-09T23:10:53</date>
+  <millis>1583770253607</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) status = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
